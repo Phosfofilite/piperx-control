@@ -1,0 +1,13 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "operation-ai-piperx"
+version = "0.3.0"
+description = "Local PiperX joint and gripper control through WSL with a simulation backend"
+requires-python = ">=3.10"
+readme = "README.md"
+
+[tool.setuptools]
+packages = ["piperx"]
